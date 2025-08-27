@@ -82,6 +82,8 @@ public class StackEx {
         // a = 5, b = 3, c = 7
         String stkCnt = "\nStack Contents: ", retVal = "\nReturn Value: ";
         
+        System.out.println("------------- Stack Activity -------------");
+        
         System.out.println("stk.isEmpty()" + stkCnt + stk + retVal + stk.isEmpty());
         
         stk.push(a);
@@ -113,7 +115,9 @@ public class StackEx {
         
         System.out.println("\nstk.size()" + stkCnt +stk + retVal + stk.size());
         
-        System.out.printf("\nUpdated Values of A = %d, B = %d, C = %d.", a, b, c);
+        System.out.printf("\nUpdated Values of A = %d, B = %d, C = %d.\n", a, b, c);
+        
+        System.out.println("------------- Stack Activity -------------");
         // ----------------------------Updated layout---------------------------------
    }
 }
